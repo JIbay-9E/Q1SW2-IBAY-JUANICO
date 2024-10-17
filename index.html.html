@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script>
+		function myFunction() {
+  var x = document.getElementById("passcode");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+	</script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login page</title>
+	<style type="text/css">
+	
+		
+
+		Button:hover{
+			background-color: #8C2F39;
+		}
+		#header{
+			text-align: center;
+			font-size: 40px;
+			background-color: #cf3648;
+			color: azure;
+			height: 60px;
+			margin-left: 20%;
+			margin-right: 20%;
+		}
+		body{
+			background-color: #FCB9B2;
+			s
+		}
+		#footer{
+			background-color: hsl(353, 70%, 56%);
+			color: azure;
+			text-align: center;
+			position: ;
+			margin-left: 20%;
+			margin-right: 20%;
+			
+		}
+		form{
+			margin-left: 20%;
+			margin-right: 20%;
+		}
+		h1{
+			text-align: center;
+		}
+		#form-button{
+			text-align: center;
+		}
+		.box {
+		width: 200px;
+		height: 100px;
+		border: 1px solid rgb(255, 255, 255);
+		padding: 10px;
+		margin: 10px;
+		}
+				
+
+		 
+		
+
+	</style>
+</head>
+<body>
+	<div class="header" id="header">
+		Login 
+		
+	</div>
+
+	<div class="container" id="container">
+		<form class="form" id="login"></form>
+			<h1 class="form__title">    </h1>
+		<form>
+			<fieldset>
+				
+				<label for="username">username:</label>
+				<input type="username" name="username" placeholder="Enter your email address">
+				<br>
+				<label for="passcode">Password:</label>
+				<input type="Password"  id="passcode" name="passcode" "Enter your passcode">
+				<input type="checkbox" onclick="myFunction()">Show Password
+
+		</fieldset>
+
+			<div class="form-button" id="form-button">
+				<input type="submit" value="Login">
+			
+				
+			</div>
+			
+		</form>	
+	</div>
+	
+	<div class="footer" id="footer">
+		<h4 style="font-style: italic;" >Juanico Matthew B. Ibay | 9-Emerald</h4>
+	</div>
+
+</body>
+</html>
